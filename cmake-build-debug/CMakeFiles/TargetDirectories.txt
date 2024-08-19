@@ -3,5 +3,7 @@ C:/Code/DataStructure/cmake-build-debug/CMakeFiles/SinglyLinkedListWithHeadNode.
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/SinglyLinkedListWithoutHeadNode.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/DoublyLinkedListWithoutHeadNode.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/DoublyLinkedListWithHeadNode.dir
+C:/Code/DataStructure/cmake-build-debug/CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir
+C:/Code/DataStructure/cmake-build-debug/CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

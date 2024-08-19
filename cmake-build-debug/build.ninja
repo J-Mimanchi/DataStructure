@@ -54,8 +54,6 @@ build CMakeFiles/SequenceList.dir/SequenceList.c.obj: C_COMPILER__SequenceList_u
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SequenceList.dir
   OBJECT_FILE_DIR = CMakeFiles\SequenceList.dir
-  TARGET_COMPILE_PDB = CMakeFiles\SequenceList.dir\
-  TARGET_PDB = SequenceList.pdb
 
 
 # =============================================================================
@@ -71,10 +69,9 @@ build SequenceList.exe: C_EXECUTABLE_LINKER__SequenceList_Debug CMakeFiles/Seque
   OBJECT_DIR = CMakeFiles\SequenceList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\SequenceList.dir\
   TARGET_FILE = SequenceList.exe
   TARGET_IMPLIB = libSequenceList.dll.a
-  TARGET_PDB = SequenceList.pdb
+  TARGET_PDB = SequenceList.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SinglyLinkedListWithHeadNode
@@ -90,8 +87,6 @@ build CMakeFiles/SinglyLinkedListWithHeadNode.dir/SinglyLinkedListWithHeadNode.c
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithHeadNode.dir
   OBJECT_FILE_DIR = CMakeFiles\SinglyLinkedListWithHeadNode.dir
-  TARGET_COMPILE_PDB = CMakeFiles\SinglyLinkedListWithHeadNode.dir\
-  TARGET_PDB = SinglyLinkedListWithHeadNode.pdb
 
 
 # =============================================================================
@@ -107,10 +102,9 @@ build SinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedListWit
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithHeadNode.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\SinglyLinkedListWithHeadNode.dir\
   TARGET_FILE = SinglyLinkedListWithHeadNode.exe
   TARGET_IMPLIB = libSinglyLinkedListWithHeadNode.dll.a
-  TARGET_PDB = SinglyLinkedListWithHeadNode.pdb
+  TARGET_PDB = SinglyLinkedListWithHeadNode.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SinglyLinkedListWithoutHeadNode
@@ -126,8 +120,6 @@ build CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/SinglyLinkedListWithoutHead
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir
   OBJECT_FILE_DIR = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir
-  TARGET_COMPILE_PDB = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\
-  TARGET_PDB = SinglyLinkedListWithoutHeadNode.pdb
 
 
 # =============================================================================
@@ -143,10 +135,9 @@ build SinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedList
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\
   TARGET_FILE = SinglyLinkedListWithoutHeadNode.exe
   TARGET_IMPLIB = libSinglyLinkedListWithoutHeadNode.dll.a
-  TARGET_PDB = SinglyLinkedListWithoutHeadNode.pdb
+  TARGET_PDB = SinglyLinkedListWithoutHeadNode.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DoublyLinkedListWithoutHeadNode
@@ -162,8 +153,6 @@ build CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/DoublyLinkedListWithoutHead
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir
   OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir
-  TARGET_COMPILE_PDB = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir\
-  TARGET_PDB = DoublyLinkedListWithoutHeadNode.pdb
 
 
 # =============================================================================
@@ -179,10 +168,9 @@ build DoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedList
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir\
   TARGET_FILE = DoublyLinkedListWithoutHeadNode.exe
   TARGET_IMPLIB = libDoublyLinkedListWithoutHeadNode.dll.a
-  TARGET_PDB = DoublyLinkedListWithoutHeadNode.pdb
+  TARGET_PDB = DoublyLinkedListWithoutHeadNode.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DoublyLinkedListWithHeadNode
@@ -198,8 +186,6 @@ build CMakeFiles/DoublyLinkedListWithHeadNode.dir/DoublyLinkedListWithHeadNode.c
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithHeadNode.dir
   OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedListWithHeadNode.dir
-  TARGET_COMPILE_PDB = CMakeFiles\DoublyLinkedListWithHeadNode.dir\
-  TARGET_PDB = DoublyLinkedListWithHeadNode.pdb
 
 
 # =============================================================================
@@ -215,10 +201,75 @@ build DoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedListWit
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithHeadNode.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\DoublyLinkedListWithHeadNode.dir\
   TARGET_FILE = DoublyLinkedListWithHeadNode.exe
   TARGET_IMPLIB = libDoublyLinkedListWithHeadNode.dll.a
-  TARGET_PDB = DoublyLinkedListWithHeadNode.pdb
+  TARGET_PDB = DoublyLinkedListWithHeadNode.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CircularSinglyLinkedListWithHeadNode
+
+
+#############################################
+# Order-only phony target for CircularSinglyLinkedListWithHeadNode
+
+build cmake_object_order_depends_target_CircularSinglyLinkedListWithHeadNode: phony || .
+
+build CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/CircularSinglyLinkedListWithHeadNode.c.obj: C_COMPILER__CircularSinglyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularSinglyLinkedListWithHeadNode.c || cmake_object_order_depends_target_CircularSinglyLinkedListWithHeadNode
+  DEP_FILE = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir\CircularSinglyLinkedListWithHeadNode.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircularSinglyLinkedListWithHeadNode
+
+
+#############################################
+# Link the executable CircularSinglyLinkedListWithHeadNode.exe
+
+build CircularSinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularSinglyLinkedListWithHeadNode_Debug CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/CircularSinglyLinkedListWithHeadNode.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CircularSinglyLinkedListWithHeadNode.exe
+  TARGET_IMPLIB = libCircularSinglyLinkedListWithHeadNode.dll.a
+  TARGET_PDB = CircularSinglyLinkedListWithHeadNode.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CircularSinglyLinkedListWithoutHeadNode
+
+
+#############################################
+# Order-only phony target for CircularSinglyLinkedListWithoutHeadNode
+
+build cmake_object_order_depends_target_CircularSinglyLinkedListWithoutHeadNode: phony || .
+
+build CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/CircularSinglyLinkedListWithoutHeadNode.c.obj: C_COMPILER__CircularSinglyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularSinglyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_CircularSinglyLinkedListWithoutHeadNode
+  DEP_FILE = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir\CircularSinglyLinkedListWithoutHeadNode.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircularSinglyLinkedListWithoutHeadNode
+
+
+#############################################
+# Link the executable CircularSinglyLinkedListWithoutHeadNode.exe
+
+build CircularSinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__CircularSinglyLinkedListWithoutHeadNode_Debug CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/CircularSinglyLinkedListWithoutHeadNode.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CircularSinglyLinkedListWithoutHeadNode.exe
+  TARGET_IMPLIB = libCircularSinglyLinkedListWithoutHeadNode.dll.a
+  TARGET_PDB = CircularSinglyLinkedListWithoutHeadNode.exe.dbg
 
 
 #############################################
@@ -246,6 +297,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build CircularSinglyLinkedListWithHeadNode: phony CircularSinglyLinkedListWithHeadNode.exe
+
+build CircularSinglyLinkedListWithoutHeadNode: phony CircularSinglyLinkedListWithoutHeadNode.exe
+
 build DoublyLinkedListWithHeadNode: phony DoublyLinkedListWithHeadNode.exe
 
 build DoublyLinkedListWithoutHeadNode: phony DoublyLinkedListWithoutHeadNode.exe
@@ -264,7 +319,7 @@ build SinglyLinkedListWithoutHeadNode: phony SinglyLinkedListWithoutHeadNode.exe
 #############################################
 # Folder: C:/Code/DataStructure/cmake-build-debug
 
-build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe
+build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithoutHeadNode.exe
 
 # =============================================================================
 # Built-in targets
@@ -273,14 +328,14 @@ build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedL
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Code/DataStructure/CMakeLists.txt C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Code/DataStructure/CMakeLists.txt C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Code/DataStructure/CMakeLists.txt C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Code/DataStructure/CMakeLists.txt C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Software/CLion$ 2024.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################
