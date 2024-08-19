@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.28)
+project(DataStructure C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(SequenceList SequenceList.c)
+add_executable(SinglyLinkedListWithHeadNode SinglyLinkedListWithHeadNode.c)
+add_executable(SinglyLinkedListWithoutHeadNode SinglyLinkedListWithoutHeadNode.c)
+add_executable(DoublyLinkedListWithoutHeadNode DoublyLinkedListWithoutHeadNode.c)
+add_executable(DoublyLinkedListWithHeadNode DoublyLinkedListWithHeadNode.c)

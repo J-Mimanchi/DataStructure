@@ -1,0 +1,20 @@
+# ninja log v6
+3	65	7456105958334425	CMakeFiles/SequenceList.dir/SequenceList.c.obj	c64420da73baa35d
+3	68	7456128321140095	CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/DoublyLinkedListWithoutHeadNode.c.obj	3284ded31edffc88
+71	135	7447269146680398	DataStructure.exe	3152717d37bb818d
+2	281	7457495793079200	build.ninja	8ae3124b217ca15e
+51	113	7446445549775803	test.exe	fc6263bf732cb07f
+71	135	7456081721718512	SingleListWithoutHeader.exe	855db750ca81e037
+75	146	7451764234195269	SingleList.exe	738fb85e8cf928f6
+72	131	7456096631992228	SingleListWithHeader.exe	7ce3372ee7e4de59
+2	66	7456107470488938	CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/SinglyLinkedListWithoutHeadNode.c.obj	6335524b2dba6b67
+69	142	7456107471160116	SinglyLinkedListWithoutHeadNode.exe	b8ecc8aad5cf0012
+3	66	7456108244457744	CMakeFiles/SinglyLinkedListWithHeadNode.dir/SinglyLinkedListWithHeadNode.c.obj	59aa970d4500d50d
+70	131	7456108245130578	SinglyLinkedListWithHeadNode.exe	dbe93dd8cd403899
+66	127	7456105958960796	SequenceList.exe	351722531b743b65
+59	119	7456109249238276	DoublyLinkedList.exe	3e0237a8a5cf5947
+69	128	7456128321795287	DoublyLinkedListWithoutHeadNode.exe	7afc13ab1c737908
+1	61	7456133792522644	CMakeFiles/DoublyLinkedListWithHeadNode.dir/DoublyLinkedListWithHeadNode.c.obj	80e26264f3058879
+62	122	7456133793131191	DoublyLinkedListWithHeadNode.exe	8a7daf74a2ae6116
+25	177	7457496989554647	CMakeFiles/DoublyLinkedListWithHeadNode.dir/DoublyLinkedListWithHeadNode.c.obj	8f4778c129f951d7
+179	374	7457496991093466	DoublyLinkedListWithHeadNode.exe	56cbdbcd3c9b8ebd
