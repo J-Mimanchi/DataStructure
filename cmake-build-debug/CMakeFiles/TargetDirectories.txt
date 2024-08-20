@@ -7,5 +7,9 @@ C:/Code/DataStructure/cmake-build-debug/CMakeFiles/CircularSinglyLinkedListWithH
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir
+C:/Code/DataStructure/cmake-build-debug/CMakeFiles/SqStack.dir
+C:/Code/DataStructure/cmake-build-debug/CMakeFiles/SharedStack.dir
+C:/Code/DataStructure/cmake-build-debug/CMakeFiles/LinkStack.dir
+C:/Code/DataStructure/cmake-build-debug/CMakeFiles/LinkStackWithoutHeader.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Code/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

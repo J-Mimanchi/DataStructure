@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Code/DataStructure/cmake-build-debug/
 
 build cmake_object_order_depends_target_SequenceList: phony || .
 
-build CMakeFiles/SequenceList.dir/SequenceList.c.obj: C_COMPILER__SequenceList_unscanned_Debug C$:/Code/DataStructure/SequenceList.c || cmake_object_order_depends_target_SequenceList
-  DEP_FILE = CMakeFiles\SequenceList.dir\SequenceList.c.obj.d
+build CMakeFiles/SequenceList.dir/List/SequenceList.c.obj: C_COMPILER__SequenceList_unscanned_Debug C$:/Code/DataStructure/List/SequenceList.c || cmake_object_order_depends_target_SequenceList
+  DEP_FILE = CMakeFiles\SequenceList.dir\List\SequenceList.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SequenceList.dir
-  OBJECT_FILE_DIR = CMakeFiles\SequenceList.dir
+  OBJECT_FILE_DIR = CMakeFiles\SequenceList.dir\List
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/SequenceList.dir/SequenceList.c.obj: C_COMPILER__SequenceList_u
 #############################################
 # Link the executable SequenceList.exe
 
-build SequenceList.exe: C_EXECUTABLE_LINKER__SequenceList_Debug CMakeFiles/SequenceList.dir/SequenceList.c.obj
+build SequenceList.exe: C_EXECUTABLE_LINKER__SequenceList_Debug CMakeFiles/SequenceList.dir/List/SequenceList.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SequenceList.dir
@@ -82,11 +82,11 @@ build SequenceList.exe: C_EXECUTABLE_LINKER__SequenceList_Debug CMakeFiles/Seque
 
 build cmake_object_order_depends_target_SinglyLinkedListWithHeadNode: phony || .
 
-build CMakeFiles/SinglyLinkedListWithHeadNode.dir/SinglyLinkedListWithHeadNode.c.obj: C_COMPILER__SinglyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/SinglyLinkedListWithHeadNode.c || cmake_object_order_depends_target_SinglyLinkedListWithHeadNode
-  DEP_FILE = CMakeFiles\SinglyLinkedListWithHeadNode.dir\SinglyLinkedListWithHeadNode.c.obj.d
+build CMakeFiles/SinglyLinkedListWithHeadNode.dir/List/SinglyLinkedListWithHeadNode.c.obj: C_COMPILER__SinglyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/List/SinglyLinkedListWithHeadNode.c || cmake_object_order_depends_target_SinglyLinkedListWithHeadNode
+  DEP_FILE = CMakeFiles\SinglyLinkedListWithHeadNode.dir\List\SinglyLinkedListWithHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\SinglyLinkedListWithHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\SinglyLinkedListWithHeadNode.dir\List
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/SinglyLinkedListWithHeadNode.dir/SinglyLinkedListWithHeadNode.c
 #############################################
 # Link the executable SinglyLinkedListWithHeadNode.exe
 
-build SinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedListWithHeadNode_Debug CMakeFiles/SinglyLinkedListWithHeadNode.dir/SinglyLinkedListWithHeadNode.c.obj
+build SinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedListWithHeadNode_Debug CMakeFiles/SinglyLinkedListWithHeadNode.dir/List/SinglyLinkedListWithHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithHeadNode.dir
@@ -115,11 +115,11 @@ build SinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedListWit
 
 build cmake_object_order_depends_target_SinglyLinkedListWithoutHeadNode: phony || .
 
-build CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/SinglyLinkedListWithoutHeadNode.c.obj: C_COMPILER__SinglyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/SinglyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_SinglyLinkedListWithoutHeadNode
-  DEP_FILE = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\SinglyLinkedListWithoutHeadNode.c.obj.d
+build CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/List/SinglyLinkedListWithoutHeadNode.c.obj: C_COMPILER__SinglyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/List/SinglyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_SinglyLinkedListWithoutHeadNode
+  DEP_FILE = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\List\SinglyLinkedListWithoutHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\List
 
 
 # =============================================================================
@@ -129,7 +129,7 @@ build CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/SinglyLinkedListWithoutHead
 #############################################
 # Link the executable SinglyLinkedListWithoutHeadNode.exe
 
-build SinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedListWithoutHeadNode_Debug CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/SinglyLinkedListWithoutHeadNode.c.obj
+build SinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedListWithoutHeadNode_Debug CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/List/SinglyLinkedListWithoutHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SinglyLinkedListWithoutHeadNode.dir
@@ -148,11 +148,11 @@ build SinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__SinglyLinkedList
 
 build cmake_object_order_depends_target_DoublyLinkedListWithoutHeadNode: phony || .
 
-build CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/DoublyLinkedListWithoutHeadNode.c.obj: C_COMPILER__DoublyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/DoublyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_DoublyLinkedListWithoutHeadNode
-  DEP_FILE = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir\DoublyLinkedListWithoutHeadNode.c.obj.d
+build CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/List/DoublyLinkedListWithoutHeadNode.c.obj: C_COMPILER__DoublyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/List/DoublyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_DoublyLinkedListWithoutHeadNode
+  DEP_FILE = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir\List\DoublyLinkedListWithoutHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir\List
 
 
 # =============================================================================
@@ -162,7 +162,7 @@ build CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/DoublyLinkedListWithoutHead
 #############################################
 # Link the executable DoublyLinkedListWithoutHeadNode.exe
 
-build DoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedListWithoutHeadNode_Debug CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/DoublyLinkedListWithoutHeadNode.c.obj
+build DoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedListWithoutHeadNode_Debug CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/List/DoublyLinkedListWithoutHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithoutHeadNode.dir
@@ -181,11 +181,11 @@ build DoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedList
 
 build cmake_object_order_depends_target_DoublyLinkedListWithHeadNode: phony || .
 
-build CMakeFiles/DoublyLinkedListWithHeadNode.dir/DoublyLinkedListWithHeadNode.c.obj: C_COMPILER__DoublyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/DoublyLinkedListWithHeadNode.c || cmake_object_order_depends_target_DoublyLinkedListWithHeadNode
-  DEP_FILE = CMakeFiles\DoublyLinkedListWithHeadNode.dir\DoublyLinkedListWithHeadNode.c.obj.d
+build CMakeFiles/DoublyLinkedListWithHeadNode.dir/List/DoublyLinkedListWithHeadNode.c.obj: C_COMPILER__DoublyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/List/DoublyLinkedListWithHeadNode.c || cmake_object_order_depends_target_DoublyLinkedListWithHeadNode
+  DEP_FILE = CMakeFiles\DoublyLinkedListWithHeadNode.dir\List\DoublyLinkedListWithHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedListWithHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedListWithHeadNode.dir\List
 
 
 # =============================================================================
@@ -195,7 +195,7 @@ build CMakeFiles/DoublyLinkedListWithHeadNode.dir/DoublyLinkedListWithHeadNode.c
 #############################################
 # Link the executable DoublyLinkedListWithHeadNode.exe
 
-build DoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedListWithHeadNode_Debug CMakeFiles/DoublyLinkedListWithHeadNode.dir/DoublyLinkedListWithHeadNode.c.obj
+build DoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedListWithHeadNode_Debug CMakeFiles/DoublyLinkedListWithHeadNode.dir/List/DoublyLinkedListWithHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DoublyLinkedListWithHeadNode.dir
@@ -214,11 +214,11 @@ build DoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__DoublyLinkedListWit
 
 build cmake_object_order_depends_target_CircularSinglyLinkedListWithHeadNode: phony || .
 
-build CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/CircularSinglyLinkedListWithHeadNode.c.obj: C_COMPILER__CircularSinglyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularSinglyLinkedListWithHeadNode.c || cmake_object_order_depends_target_CircularSinglyLinkedListWithHeadNode
-  DEP_FILE = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir\CircularSinglyLinkedListWithHeadNode.c.obj.d
+build CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/List/CircularSinglyLinkedListWithHeadNode.c.obj: C_COMPILER__CircularSinglyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/List/CircularSinglyLinkedListWithHeadNode.c || cmake_object_order_depends_target_CircularSinglyLinkedListWithHeadNode
+  DEP_FILE = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir\List\CircularSinglyLinkedListWithHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir\List
 
 
 # =============================================================================
@@ -228,7 +228,7 @@ build CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/CircularSinglyLinkedLi
 #############################################
 # Link the executable CircularSinglyLinkedListWithHeadNode.exe
 
-build CircularSinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularSinglyLinkedListWithHeadNode_Debug CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/CircularSinglyLinkedListWithHeadNode.c.obj
+build CircularSinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularSinglyLinkedListWithHeadNode_Debug CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/List/CircularSinglyLinkedListWithHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir
@@ -247,11 +247,11 @@ build CircularSinglyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularSin
 
 build cmake_object_order_depends_target_CircularSinglyLinkedListWithoutHeadNode: phony || .
 
-build CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/CircularSinglyLinkedListWithoutHeadNode.c.obj: C_COMPILER__CircularSinglyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularSinglyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_CircularSinglyLinkedListWithoutHeadNode
-  DEP_FILE = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir\CircularSinglyLinkedListWithoutHeadNode.c.obj.d
+build CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/List/CircularSinglyLinkedListWithoutHeadNode.c.obj: C_COMPILER__CircularSinglyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/List/CircularSinglyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_CircularSinglyLinkedListWithoutHeadNode
+  DEP_FILE = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir\List\CircularSinglyLinkedListWithoutHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir\List
 
 
 # =============================================================================
@@ -261,7 +261,7 @@ build CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/CircularSinglyLinke
 #############################################
 # Link the executable CircularSinglyLinkedListWithoutHeadNode.exe
 
-build CircularSinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__CircularSinglyLinkedListWithoutHeadNode_Debug CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/CircularSinglyLinkedListWithoutHeadNode.c.obj
+build CircularSinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__CircularSinglyLinkedListWithoutHeadNode_Debug CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/List/CircularSinglyLinkedListWithoutHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir
@@ -280,11 +280,11 @@ build CircularSinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__Circular
 
 build cmake_object_order_depends_target_CircularDoublyLinkedListWithHeadNode: phony || .
 
-build CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/CircularDoublyLinkedListWithHeadNode.c.obj: C_COMPILER__CircularDoublyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularDoublyLinkedListWithHeadNode.c || cmake_object_order_depends_target_CircularDoublyLinkedListWithHeadNode
-  DEP_FILE = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir\CircularDoublyLinkedListWithHeadNode.c.obj.d
+build CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/List/CircularDoublyLinkedListWithHeadNode.c.obj: C_COMPILER__CircularDoublyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/List/CircularDoublyLinkedListWithHeadNode.c || cmake_object_order_depends_target_CircularDoublyLinkedListWithHeadNode
+  DEP_FILE = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir\List\CircularDoublyLinkedListWithHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir\List
 
 
 # =============================================================================
@@ -294,7 +294,7 @@ build CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/CircularDoublyLinkedLi
 #############################################
 # Link the executable CircularDoublyLinkedListWithHeadNode.exe
 
-build CircularDoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularDoublyLinkedListWithHeadNode_Debug CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/CircularDoublyLinkedListWithHeadNode.c.obj
+build CircularDoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularDoublyLinkedListWithHeadNode_Debug CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/List/CircularDoublyLinkedListWithHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir
@@ -313,11 +313,11 @@ build CircularDoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularDou
 
 build cmake_object_order_depends_target_CircularDoublyLinkedListWithoutHeadNode: phony || .
 
-build CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/CircularDoublyLinkedListWithoutHeadNode.c.obj: C_COMPILER__CircularDoublyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularDoublyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_CircularDoublyLinkedListWithoutHeadNode
-  DEP_FILE = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir\CircularDoublyLinkedListWithoutHeadNode.c.obj.d
+build CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/List/CircularDoublyLinkedListWithoutHeadNode.c.obj: C_COMPILER__CircularDoublyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/List/CircularDoublyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_CircularDoublyLinkedListWithoutHeadNode
+  DEP_FILE = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir\List\CircularDoublyLinkedListWithoutHeadNode.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir
-  OBJECT_FILE_DIR = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir\List
 
 
 # =============================================================================
@@ -327,7 +327,7 @@ build CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/CircularDoublyLinke
 #############################################
 # Link the executable CircularDoublyLinkedListWithoutHeadNode.exe
 
-build CircularDoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__CircularDoublyLinkedListWithoutHeadNode_Debug CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/CircularDoublyLinkedListWithoutHeadNode.c.obj
+build CircularDoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__CircularDoublyLinkedListWithoutHeadNode_Debug CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/List/CircularDoublyLinkedListWithoutHeadNode.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir
@@ -336,6 +336,138 @@ build CircularDoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__Circular
   TARGET_FILE = CircularDoublyLinkedListWithoutHeadNode.exe
   TARGET_IMPLIB = libCircularDoublyLinkedListWithoutHeadNode.dll.a
   TARGET_PDB = CircularDoublyLinkedListWithoutHeadNode.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SqStack
+
+
+#############################################
+# Order-only phony target for SqStack
+
+build cmake_object_order_depends_target_SqStack: phony || .
+
+build CMakeFiles/SqStack.dir/Stack/SqStack.c.obj: C_COMPILER__SqStack_unscanned_Debug C$:/Code/DataStructure/Stack/SqStack.c || cmake_object_order_depends_target_SqStack
+  DEP_FILE = CMakeFiles\SqStack.dir\Stack\SqStack.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SqStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\SqStack.dir\Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SqStack
+
+
+#############################################
+# Link the executable SqStack.exe
+
+build SqStack.exe: C_EXECUTABLE_LINKER__SqStack_Debug CMakeFiles/SqStack.dir/Stack/SqStack.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SqStack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SqStack.exe
+  TARGET_IMPLIB = libSqStack.dll.a
+  TARGET_PDB = SqStack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SharedStack
+
+
+#############################################
+# Order-only phony target for SharedStack
+
+build cmake_object_order_depends_target_SharedStack: phony || .
+
+build CMakeFiles/SharedStack.dir/Stack/SharedStack.c.obj: C_COMPILER__SharedStack_unscanned_Debug C$:/Code/DataStructure/Stack/SharedStack.c || cmake_object_order_depends_target_SharedStack
+  DEP_FILE = CMakeFiles\SharedStack.dir\Stack\SharedStack.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SharedStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\SharedStack.dir\Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SharedStack
+
+
+#############################################
+# Link the executable SharedStack.exe
+
+build SharedStack.exe: C_EXECUTABLE_LINKER__SharedStack_Debug CMakeFiles/SharedStack.dir/Stack/SharedStack.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SharedStack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SharedStack.exe
+  TARGET_IMPLIB = libSharedStack.dll.a
+  TARGET_PDB = SharedStack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkStack
+
+
+#############################################
+# Order-only phony target for LinkStack
+
+build cmake_object_order_depends_target_LinkStack: phony || .
+
+build CMakeFiles/LinkStack.dir/Stack/LinkStackWithoutHeader.c.obj: C_COMPILER__LinkStack_unscanned_Debug C$:/Code/DataStructure/Stack/LinkStackWithoutHeader.c || cmake_object_order_depends_target_LinkStack
+  DEP_FILE = CMakeFiles\LinkStack.dir\Stack\LinkStackWithoutHeader.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinkStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkStack.dir\Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkStack
+
+
+#############################################
+# Link the executable LinkStack.exe
+
+build LinkStack.exe: C_EXECUTABLE_LINKER__LinkStack_Debug CMakeFiles/LinkStack.dir/Stack/LinkStackWithoutHeader.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinkStack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinkStack.exe
+  TARGET_IMPLIB = libLinkStack.dll.a
+  TARGET_PDB = LinkStack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkStackWithoutHeader
+
+
+#############################################
+# Order-only phony target for LinkStackWithoutHeader
+
+build cmake_object_order_depends_target_LinkStackWithoutHeader: phony || .
+
+build CMakeFiles/LinkStackWithoutHeader.dir/Stack/LinkStackWithHeader.c.obj: C_COMPILER__LinkStackWithoutHeader_unscanned_Debug C$:/Code/DataStructure/Stack/LinkStackWithHeader.c || cmake_object_order_depends_target_LinkStackWithoutHeader
+  DEP_FILE = CMakeFiles\LinkStackWithoutHeader.dir\Stack\LinkStackWithHeader.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinkStackWithoutHeader.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkStackWithoutHeader.dir\Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkStackWithoutHeader
+
+
+#############################################
+# Link the executable LinkStackWithoutHeader.exe
+
+build LinkStackWithoutHeader.exe: C_EXECUTABLE_LINKER__LinkStackWithoutHeader_Debug CMakeFiles/LinkStackWithoutHeader.dir/Stack/LinkStackWithHeader.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinkStackWithoutHeader.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinkStackWithoutHeader.exe
+  TARGET_IMPLIB = libLinkStackWithoutHeader.dll.a
+  TARGET_PDB = LinkStackWithoutHeader.exe.dbg
 
 
 #############################################
@@ -375,11 +507,19 @@ build DoublyLinkedListWithHeadNode: phony DoublyLinkedListWithHeadNode.exe
 
 build DoublyLinkedListWithoutHeadNode: phony DoublyLinkedListWithoutHeadNode.exe
 
+build LinkStack: phony LinkStack.exe
+
+build LinkStackWithoutHeader: phony LinkStackWithoutHeader.exe
+
 build SequenceList: phony SequenceList.exe
+
+build SharedStack: phony SharedStack.exe
 
 build SinglyLinkedListWithHeadNode: phony SinglyLinkedListWithHeadNode.exe
 
 build SinglyLinkedListWithoutHeadNode: phony SinglyLinkedListWithoutHeadNode.exe
+
+build SqStack: phony SqStack.exe
 
 # =============================================================================
 # Folder targets.
@@ -389,7 +529,7 @@ build SinglyLinkedListWithoutHeadNode: phony SinglyLinkedListWithoutHeadNode.exe
 #############################################
 # Folder: C:/Code/DataStructure/cmake-build-debug
 
-build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithoutHeadNode.exe CircularDoublyLinkedListWithHeadNode.exe CircularDoublyLinkedListWithoutHeadNode.exe
+build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithoutHeadNode.exe CircularDoublyLinkedListWithHeadNode.exe CircularDoublyLinkedListWithoutHeadNode.exe SqStack.exe SharedStack.exe LinkStack.exe LinkStackWithoutHeader.exe
 
 # =============================================================================
 # Built-in targets
