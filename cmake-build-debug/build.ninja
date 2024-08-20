@@ -271,6 +271,72 @@ build CircularSinglyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__Circular
   TARGET_IMPLIB = libCircularSinglyLinkedListWithoutHeadNode.dll.a
   TARGET_PDB = CircularSinglyLinkedListWithoutHeadNode.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CircularDoublyLinkedListWithHeadNode
+
+
+#############################################
+# Order-only phony target for CircularDoublyLinkedListWithHeadNode
+
+build cmake_object_order_depends_target_CircularDoublyLinkedListWithHeadNode: phony || .
+
+build CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/CircularDoublyLinkedListWithHeadNode.c.obj: C_COMPILER__CircularDoublyLinkedListWithHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularDoublyLinkedListWithHeadNode.c || cmake_object_order_depends_target_CircularDoublyLinkedListWithHeadNode
+  DEP_FILE = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir\CircularDoublyLinkedListWithHeadNode.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircularDoublyLinkedListWithHeadNode
+
+
+#############################################
+# Link the executable CircularDoublyLinkedListWithHeadNode.exe
+
+build CircularDoublyLinkedListWithHeadNode.exe: C_EXECUTABLE_LINKER__CircularDoublyLinkedListWithHeadNode_Debug CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/CircularDoublyLinkedListWithHeadNode.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CircularDoublyLinkedListWithHeadNode.exe
+  TARGET_IMPLIB = libCircularDoublyLinkedListWithHeadNode.dll.a
+  TARGET_PDB = CircularDoublyLinkedListWithHeadNode.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CircularDoublyLinkedListWithoutHeadNode
+
+
+#############################################
+# Order-only phony target for CircularDoublyLinkedListWithoutHeadNode
+
+build cmake_object_order_depends_target_CircularDoublyLinkedListWithoutHeadNode: phony || .
+
+build CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/CircularDoublyLinkedListWithoutHeadNode.c.obj: C_COMPILER__CircularDoublyLinkedListWithoutHeadNode_unscanned_Debug C$:/Code/DataStructure/CircularDoublyLinkedListWithoutHeadNode.c || cmake_object_order_depends_target_CircularDoublyLinkedListWithoutHeadNode
+  DEP_FILE = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir\CircularDoublyLinkedListWithoutHeadNode.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircularDoublyLinkedListWithoutHeadNode
+
+
+#############################################
+# Link the executable CircularDoublyLinkedListWithoutHeadNode.exe
+
+build CircularDoublyLinkedListWithoutHeadNode.exe: C_EXECUTABLE_LINKER__CircularDoublyLinkedListWithoutHeadNode_Debug CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/CircularDoublyLinkedListWithoutHeadNode.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CircularDoublyLinkedListWithoutHeadNode.exe
+  TARGET_IMPLIB = libCircularDoublyLinkedListWithoutHeadNode.dll.a
+  TARGET_PDB = CircularDoublyLinkedListWithoutHeadNode.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -297,6 +363,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build CircularDoublyLinkedListWithHeadNode: phony CircularDoublyLinkedListWithHeadNode.exe
+
+build CircularDoublyLinkedListWithoutHeadNode: phony CircularDoublyLinkedListWithoutHeadNode.exe
+
 build CircularSinglyLinkedListWithHeadNode: phony CircularSinglyLinkedListWithHeadNode.exe
 
 build CircularSinglyLinkedListWithoutHeadNode: phony CircularSinglyLinkedListWithoutHeadNode.exe
@@ -319,7 +389,7 @@ build SinglyLinkedListWithoutHeadNode: phony SinglyLinkedListWithoutHeadNode.exe
 #############################################
 # Folder: C:/Code/DataStructure/cmake-build-debug
 
-build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithoutHeadNode.exe
+build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithoutHeadNode.exe CircularDoublyLinkedListWithHeadNode.exe CircularDoublyLinkedListWithoutHeadNode.exe
 
 # =============================================================================
 # Built-in targets
