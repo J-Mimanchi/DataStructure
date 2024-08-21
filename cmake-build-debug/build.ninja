@@ -404,39 +404,6 @@ build SharedStack.exe: C_EXECUTABLE_LINKER__SharedStack_Debug CMakeFiles/SharedS
   TARGET_PDB = SharedStack.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target LinkStack
-
-
-#############################################
-# Order-only phony target for LinkStack
-
-build cmake_object_order_depends_target_LinkStack: phony || .
-
-build CMakeFiles/LinkStack.dir/Stack/LinkStackWithoutHeader.c.obj: C_COMPILER__LinkStack_unscanned_Debug C$:/Code/DataStructure/Stack/LinkStackWithoutHeader.c || cmake_object_order_depends_target_LinkStack
-  DEP_FILE = CMakeFiles\LinkStack.dir\Stack\LinkStackWithoutHeader.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\LinkStack.dir
-  OBJECT_FILE_DIR = CMakeFiles\LinkStack.dir\Stack
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target LinkStack
-
-
-#############################################
-# Link the executable LinkStack.exe
-
-build LinkStack.exe: C_EXECUTABLE_LINKER__LinkStack_Debug CMakeFiles/LinkStack.dir/Stack/LinkStackWithoutHeader.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\LinkStack.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = LinkStack.exe
-  TARGET_IMPLIB = libLinkStack.dll.a
-  TARGET_PDB = LinkStack.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target LinkStackWithoutHeader
 
 
@@ -445,8 +412,8 @@ build LinkStack.exe: C_EXECUTABLE_LINKER__LinkStack_Debug CMakeFiles/LinkStack.d
 
 build cmake_object_order_depends_target_LinkStackWithoutHeader: phony || .
 
-build CMakeFiles/LinkStackWithoutHeader.dir/Stack/LinkStackWithHeader.c.obj: C_COMPILER__LinkStackWithoutHeader_unscanned_Debug C$:/Code/DataStructure/Stack/LinkStackWithHeader.c || cmake_object_order_depends_target_LinkStackWithoutHeader
-  DEP_FILE = CMakeFiles\LinkStackWithoutHeader.dir\Stack\LinkStackWithHeader.c.obj.d
+build CMakeFiles/LinkStackWithoutHeader.dir/Stack/LinkStackWithoutHeader.c.obj: C_COMPILER__LinkStackWithoutHeader_unscanned_Debug C$:/Code/DataStructure/Stack/LinkStackWithoutHeader.c || cmake_object_order_depends_target_LinkStackWithoutHeader
+  DEP_FILE = CMakeFiles\LinkStackWithoutHeader.dir\Stack\LinkStackWithoutHeader.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\LinkStackWithoutHeader.dir
   OBJECT_FILE_DIR = CMakeFiles\LinkStackWithoutHeader.dir\Stack
@@ -459,7 +426,7 @@ build CMakeFiles/LinkStackWithoutHeader.dir/Stack/LinkStackWithHeader.c.obj: C_C
 #############################################
 # Link the executable LinkStackWithoutHeader.exe
 
-build LinkStackWithoutHeader.exe: C_EXECUTABLE_LINKER__LinkStackWithoutHeader_Debug CMakeFiles/LinkStackWithoutHeader.dir/Stack/LinkStackWithHeader.c.obj
+build LinkStackWithoutHeader.exe: C_EXECUTABLE_LINKER__LinkStackWithoutHeader_Debug CMakeFiles/LinkStackWithoutHeader.dir/Stack/LinkStackWithoutHeader.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LinkStackWithoutHeader.dir
@@ -468,6 +435,171 @@ build LinkStackWithoutHeader.exe: C_EXECUTABLE_LINKER__LinkStackWithoutHeader_De
   TARGET_FILE = LinkStackWithoutHeader.exe
   TARGET_IMPLIB = libLinkStackWithoutHeader.dll.a
   TARGET_PDB = LinkStackWithoutHeader.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkStackWithHeader
+
+
+#############################################
+# Order-only phony target for LinkStackWithHeader
+
+build cmake_object_order_depends_target_LinkStackWithHeader: phony || .
+
+build CMakeFiles/LinkStackWithHeader.dir/Stack/LinkStackWithHeader.c.obj: C_COMPILER__LinkStackWithHeader_unscanned_Debug C$:/Code/DataStructure/Stack/LinkStackWithHeader.c || cmake_object_order_depends_target_LinkStackWithHeader
+  DEP_FILE = CMakeFiles\LinkStackWithHeader.dir\Stack\LinkStackWithHeader.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinkStackWithHeader.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkStackWithHeader.dir\Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkStackWithHeader
+
+
+#############################################
+# Link the executable LinkStackWithHeader.exe
+
+build LinkStackWithHeader.exe: C_EXECUTABLE_LINKER__LinkStackWithHeader_Debug CMakeFiles/LinkStackWithHeader.dir/Stack/LinkStackWithHeader.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinkStackWithHeader.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinkStackWithHeader.exe
+  TARGET_IMPLIB = libLinkStackWithHeader.dll.a
+  TARGET_PDB = LinkStackWithHeader.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SqQueue
+
+
+#############################################
+# Order-only phony target for SqQueue
+
+build cmake_object_order_depends_target_SqQueue: phony || .
+
+build CMakeFiles/SqQueue.dir/Queue/SqQueue.c.obj: C_COMPILER__SqQueue_unscanned_Debug C$:/Code/DataStructure/Queue/SqQueue.c || cmake_object_order_depends_target_SqQueue
+  DEP_FILE = CMakeFiles\SqQueue.dir\Queue\SqQueue.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SqQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\SqQueue.dir\Queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SqQueue
+
+
+#############################################
+# Link the executable SqQueue.exe
+
+build SqQueue.exe: C_EXECUTABLE_LINKER__SqQueue_Debug CMakeFiles/SqQueue.dir/Queue/SqQueue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SqQueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SqQueue.exe
+  TARGET_IMPLIB = libSqQueue.dll.a
+  TARGET_PDB = SqQueue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkQueueWithoutHeader
+
+
+#############################################
+# Order-only phony target for LinkQueueWithoutHeader
+
+build cmake_object_order_depends_target_LinkQueueWithoutHeader: phony || .
+
+build CMakeFiles/LinkQueueWithoutHeader.dir/Queue/LinkQueueWithoutHeader.c.obj: C_COMPILER__LinkQueueWithoutHeader_unscanned_Debug C$:/Code/DataStructure/Queue/LinkQueueWithoutHeader.c || cmake_object_order_depends_target_LinkQueueWithoutHeader
+  DEP_FILE = CMakeFiles\LinkQueueWithoutHeader.dir\Queue\LinkQueueWithoutHeader.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinkQueueWithoutHeader.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkQueueWithoutHeader.dir\Queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkQueueWithoutHeader
+
+
+#############################################
+# Link the executable LinkQueueWithoutHeader.exe
+
+build LinkQueueWithoutHeader.exe: C_EXECUTABLE_LINKER__LinkQueueWithoutHeader_Debug CMakeFiles/LinkQueueWithoutHeader.dir/Queue/LinkQueueWithoutHeader.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinkQueueWithoutHeader.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinkQueueWithoutHeader.exe
+  TARGET_IMPLIB = libLinkQueueWithoutHeader.dll.a
+  TARGET_PDB = LinkQueueWithoutHeader.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkQueueWithHeader
+
+
+#############################################
+# Order-only phony target for LinkQueueWithHeader
+
+build cmake_object_order_depends_target_LinkQueueWithHeader: phony || .
+
+build CMakeFiles/LinkQueueWithHeader.dir/Queue/LinkQueueWithHeader.c.obj: C_COMPILER__LinkQueueWithHeader_unscanned_Debug C$:/Code/DataStructure/Queue/LinkQueueWithHeader.c || cmake_object_order_depends_target_LinkQueueWithHeader
+  DEP_FILE = CMakeFiles\LinkQueueWithHeader.dir\Queue\LinkQueueWithHeader.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinkQueueWithHeader.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkQueueWithHeader.dir\Queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkQueueWithHeader
+
+
+#############################################
+# Link the executable LinkQueueWithHeader.exe
+
+build LinkQueueWithHeader.exe: C_EXECUTABLE_LINKER__LinkQueueWithHeader_Debug CMakeFiles/LinkQueueWithHeader.dir/Queue/LinkQueueWithHeader.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinkQueueWithHeader.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinkQueueWithHeader.exe
+  TARGET_IMPLIB = libLinkQueueWithHeader.dll.a
+  TARGET_PDB = LinkQueueWithHeader.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DoubleEndedQueue
+
+
+#############################################
+# Order-only phony target for DoubleEndedQueue
+
+build cmake_object_order_depends_target_DoubleEndedQueue: phony || .
+
+build CMakeFiles/DoubleEndedQueue.dir/Queue/DoubleEndedQueue.c.obj: C_COMPILER__DoubleEndedQueue_unscanned_Debug C$:/Code/DataStructure/Queue/DoubleEndedQueue.c || cmake_object_order_depends_target_DoubleEndedQueue
+  DEP_FILE = CMakeFiles\DoubleEndedQueue.dir\Queue\DoubleEndedQueue.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DoubleEndedQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoubleEndedQueue.dir\Queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DoubleEndedQueue
+
+
+#############################################
+# Link the executable DoubleEndedQueue.exe
+
+build DoubleEndedQueue.exe: C_EXECUTABLE_LINKER__DoubleEndedQueue_Debug CMakeFiles/DoubleEndedQueue.dir/Queue/DoubleEndedQueue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DoubleEndedQueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DoubleEndedQueue.exe
+  TARGET_IMPLIB = libDoubleEndedQueue.dll.a
+  TARGET_PDB = DoubleEndedQueue.exe.dbg
 
 
 #############################################
@@ -503,11 +635,17 @@ build CircularSinglyLinkedListWithHeadNode: phony CircularSinglyLinkedListWithHe
 
 build CircularSinglyLinkedListWithoutHeadNode: phony CircularSinglyLinkedListWithoutHeadNode.exe
 
+build DoubleEndedQueue: phony DoubleEndedQueue.exe
+
 build DoublyLinkedListWithHeadNode: phony DoublyLinkedListWithHeadNode.exe
 
 build DoublyLinkedListWithoutHeadNode: phony DoublyLinkedListWithoutHeadNode.exe
 
-build LinkStack: phony LinkStack.exe
+build LinkQueueWithHeader: phony LinkQueueWithHeader.exe
+
+build LinkQueueWithoutHeader: phony LinkQueueWithoutHeader.exe
+
+build LinkStackWithHeader: phony LinkStackWithHeader.exe
 
 build LinkStackWithoutHeader: phony LinkStackWithoutHeader.exe
 
@@ -519,6 +657,8 @@ build SinglyLinkedListWithHeadNode: phony SinglyLinkedListWithHeadNode.exe
 
 build SinglyLinkedListWithoutHeadNode: phony SinglyLinkedListWithoutHeadNode.exe
 
+build SqQueue: phony SqQueue.exe
+
 build SqStack: phony SqStack.exe
 
 # =============================================================================
@@ -529,7 +669,7 @@ build SqStack: phony SqStack.exe
 #############################################
 # Folder: C:/Code/DataStructure/cmake-build-debug
 
-build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithoutHeadNode.exe CircularDoublyLinkedListWithHeadNode.exe CircularDoublyLinkedListWithoutHeadNode.exe SqStack.exe SharedStack.exe LinkStack.exe LinkStackWithoutHeader.exe
+build all: phony SequenceList.exe SinglyLinkedListWithHeadNode.exe SinglyLinkedListWithoutHeadNode.exe DoublyLinkedListWithoutHeadNode.exe DoublyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithHeadNode.exe CircularSinglyLinkedListWithoutHeadNode.exe CircularDoublyLinkedListWithHeadNode.exe CircularDoublyLinkedListWithoutHeadNode.exe SqStack.exe SharedStack.exe LinkStackWithoutHeader.exe LinkStackWithHeader.exe SqQueue.exe LinkQueueWithoutHeader.exe LinkQueueWithHeader.exe DoubleEndedQueue.exe
 
 # =============================================================================
 # Built-in targets

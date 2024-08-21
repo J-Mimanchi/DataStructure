@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "LinkStack.exe"
+			"path" : "SqQueue.exe"
 		},
 		{
-			"path" : "LinkStack.pdb"
+			"path" : "SqQueue.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "LinkStack::@6890427a1f51a3e7e1df",
+	"id" : "SqQueue::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "LinkStack",
-	"nameOnDisk" : "LinkStack.exe",
+	"name" : "SqQueue",
+	"nameOnDisk" : "SqQueue.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Stack/LinkStackWithoutHeader.c",
+			"path" : "Queue/SqQueue.c",
 			"sourceGroupIndex" : 0
 		}
 	],

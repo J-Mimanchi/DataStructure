@@ -14,5 +14,10 @@ add_executable(CircularDoublyLinkedListWithHeadNode List/CircularDoublyLinkedLis
 add_executable(CircularDoublyLinkedListWithoutHeadNode List/CircularDoublyLinkedListWithoutHeadNode.c)
 add_executable(SqStack Stack/SqStack.c)
 add_executable(SharedStack Stack/SharedStack.c)
-add_executable(LinkStack Stack/LinkStackWithoutHeader.c)
-add_executable(LinkStackWithoutHeader Stack/LinkStackWithHeader.c)
+add_executable(LinkStackWithoutHeader Stack/LinkStackWithoutHeader.c)
+add_executable(LinkStackWithHeader Stack/LinkStackWithHeader.c)
+add_executable(SqQueue Queue/SqQueue.c)
+
+add_executable(LinkQueueWithoutHeader Queue/LinkQueueWithoutHeader.c)
+add_executable(LinkQueueWithHeader Queue/LinkQueueWithHeader.c)
+add_executable(DoubleEndedQueue Queue/DoubleEndedQueue.c)
