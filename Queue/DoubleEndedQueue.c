@@ -147,7 +147,7 @@ void freeDeque(Deque* deque) {
 }
 
 int main() {
-    Deque deque;
+    Deque deque;// 定义双端队列
     initDeque(&deque);
     printf("Deque initialized.\n\n");
 
