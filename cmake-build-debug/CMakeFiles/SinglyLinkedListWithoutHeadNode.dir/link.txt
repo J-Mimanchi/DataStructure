@@ -1,0 +1,3 @@
+D:\DevelopmentTools\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\SinglyLinkedListWithoutHeadNode.dir/objects.a
+D:\DevelopmentTools\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\SinglyLinkedListWithoutHeadNode.dir/objects.a @CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\objects1.rsp
+D:\DevelopmentTools\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\SinglyLinkedListWithoutHeadNode.dir/objects.a -Wl,--no-whole-archive -o SinglyLinkedListWithoutHeadNode.exe -Wl,--out-implib,libSinglyLinkedListWithoutHeadNode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\linkLibs.rsp

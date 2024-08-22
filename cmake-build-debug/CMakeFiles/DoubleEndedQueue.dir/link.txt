@@ -1,0 +1,3 @@
+D:\DevelopmentTools\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\DoubleEndedQueue.dir/objects.a
+D:\DevelopmentTools\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\DoubleEndedQueue.dir/objects.a @CMakeFiles\DoubleEndedQueue.dir\objects1.rsp
+D:\DevelopmentTools\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\DoubleEndedQueue.dir/objects.a -Wl,--no-whole-archive -o DoubleEndedQueue.exe -Wl,--out-implib,libDoubleEndedQueue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DoubleEndedQueue.dir\linkLibs.rsp
