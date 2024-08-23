@@ -15,5 +15,6 @@ D:/Code/DataStructure/cmake-build-debug/CMakeFiles/SqQueue.dir
 D:/Code/DataStructure/cmake-build-debug/CMakeFiles/LinkQueueWithoutHeader.dir
 D:/Code/DataStructure/cmake-build-debug/CMakeFiles/LinkQueueWithHeader.dir
 D:/Code/DataStructure/cmake-build-debug/CMakeFiles/DoubleEndedQueue.dir
+D:/Code/DataStructure/cmake-build-debug/CMakeFiles/StackInBracketMatching.dir
 D:/Code/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Code/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

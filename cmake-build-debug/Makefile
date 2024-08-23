@@ -336,6 +336,43 @@ DoubleEndedQueue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleEndedQueue.dir\build.make CMakeFiles/DoubleEndedQueue.dir/build
 .PHONY : DoubleEndedQueue/fast
 
+#=============================================================================
+# Target rules for targets named StackInBracketMatching
+
+# Build rule for target.
+StackInBracketMatching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StackInBracketMatching
+.PHONY : StackInBracketMatching
+
+# fast build rule for target.
+StackInBracketMatching/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/build
+.PHONY : StackInBracketMatching/fast
+
+ApplicationOfStack/StackInBracketMatching.obj: ApplicationOfStack/StackInBracketMatching.c.obj
+.PHONY : ApplicationOfStack/StackInBracketMatching.obj
+
+# target to build an object file
+ApplicationOfStack/StackInBracketMatching.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/ApplicationOfStack/StackInBracketMatching.c.obj
+.PHONY : ApplicationOfStack/StackInBracketMatching.c.obj
+
+ApplicationOfStack/StackInBracketMatching.i: ApplicationOfStack/StackInBracketMatching.c.i
+.PHONY : ApplicationOfStack/StackInBracketMatching.i
+
+# target to preprocess a source file
+ApplicationOfStack/StackInBracketMatching.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/ApplicationOfStack/StackInBracketMatching.c.i
+.PHONY : ApplicationOfStack/StackInBracketMatching.c.i
+
+ApplicationOfStack/StackInBracketMatching.s: ApplicationOfStack/StackInBracketMatching.c.s
+.PHONY : ApplicationOfStack/StackInBracketMatching.s
+
+# target to generate assembly for a file
+ApplicationOfStack/StackInBracketMatching.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/ApplicationOfStack/StackInBracketMatching.c.s
+.PHONY : ApplicationOfStack/StackInBracketMatching.c.s
+
 List/CircularDoublyLinkedListWithHeadNode.obj: List/CircularDoublyLinkedListWithHeadNode.c.obj
 .PHONY : List/CircularDoublyLinkedListWithHeadNode.obj
 
@@ -769,6 +806,10 @@ help:
 	@echo ... SinglyLinkedListWithoutHeadNode
 	@echo ... SqQueue
 	@echo ... SqStack
+	@echo ... StackInBracketMatching
+	@echo ... ApplicationOfStack/StackInBracketMatching.obj
+	@echo ... ApplicationOfStack/StackInBracketMatching.i
+	@echo ... ApplicationOfStack/StackInBracketMatching.s
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.obj
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.i
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.s

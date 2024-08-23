@@ -79,6 +79,7 @@ all: CMakeFiles/SqQueue.dir/all
 all: CMakeFiles/LinkQueueWithoutHeader.dir/all
 all: CMakeFiles/LinkQueueWithHeader.dir/all
 all: CMakeFiles/DoubleEndedQueue.dir/all
+all: CMakeFiles/StackInBracketMatching.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -103,6 +104,7 @@ clean: CMakeFiles/SqQueue.dir/clean
 clean: CMakeFiles/LinkQueueWithoutHeader.dir/clean
 clean: CMakeFiles/LinkQueueWithHeader.dir/clean
 clean: CMakeFiles/DoubleEndedQueue.dir/clean
+clean: CMakeFiles/StackInBracketMatching.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -546,6 +548,32 @@ DoubleEndedQueue: CMakeFiles/DoubleEndedQueue.dir/rule
 CMakeFiles/DoubleEndedQueue.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleEndedQueue.dir\build.make CMakeFiles/DoubleEndedQueue.dir/clean
 .PHONY : CMakeFiles/DoubleEndedQueue.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/StackInBracketMatching.dir
+
+# All Build rule for target.
+CMakeFiles/StackInBracketMatching.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target StackInBracketMatching"
+.PHONY : CMakeFiles/StackInBracketMatching.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/StackInBracketMatching.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StackInBracketMatching.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/StackInBracketMatching.dir/rule
+
+# Convenience name for target.
+StackInBracketMatching: CMakeFiles/StackInBracketMatching.dir/rule
+.PHONY : StackInBracketMatching
+
+# clean rule for target.
+CMakeFiles/StackInBracketMatching.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/clean
+.PHONY : CMakeFiles/StackInBracketMatching.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
