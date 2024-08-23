@@ -337,41 +337,78 @@ DoubleEndedQueue/fast:
 .PHONY : DoubleEndedQueue/fast
 
 #=============================================================================
-# Target rules for targets named StackInBracketMatching
+# Target rules for targets named BracketMatching
 
 # Build rule for target.
-StackInBracketMatching: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StackInBracketMatching
-.PHONY : StackInBracketMatching
+BracketMatching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BracketMatching
+.PHONY : BracketMatching
 
 # fast build rule for target.
-StackInBracketMatching/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/build
-.PHONY : StackInBracketMatching/fast
+BracketMatching/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BracketMatching.dir\build.make CMakeFiles/BracketMatching.dir/build
+.PHONY : BracketMatching/fast
 
-ApplicationOfStack/StackInBracketMatching.obj: ApplicationOfStack/StackInBracketMatching.c.obj
-.PHONY : ApplicationOfStack/StackInBracketMatching.obj
+#=============================================================================
+# Target rules for targets named ExpressionEvaluation
+
+# Build rule for target.
+ExpressionEvaluation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExpressionEvaluation
+.PHONY : ExpressionEvaluation
+
+# fast build rule for target.
+ExpressionEvaluation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/build
+.PHONY : ExpressionEvaluation/fast
+
+ApplicationOfStack/BracketMatching.obj: ApplicationOfStack/BracketMatching.c.obj
+.PHONY : ApplicationOfStack/BracketMatching.obj
 
 # target to build an object file
-ApplicationOfStack/StackInBracketMatching.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/ApplicationOfStack/StackInBracketMatching.c.obj
-.PHONY : ApplicationOfStack/StackInBracketMatching.c.obj
+ApplicationOfStack/BracketMatching.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BracketMatching.dir\build.make CMakeFiles/BracketMatching.dir/ApplicationOfStack/BracketMatching.c.obj
+.PHONY : ApplicationOfStack/BracketMatching.c.obj
 
-ApplicationOfStack/StackInBracketMatching.i: ApplicationOfStack/StackInBracketMatching.c.i
-.PHONY : ApplicationOfStack/StackInBracketMatching.i
+ApplicationOfStack/BracketMatching.i: ApplicationOfStack/BracketMatching.c.i
+.PHONY : ApplicationOfStack/BracketMatching.i
 
 # target to preprocess a source file
-ApplicationOfStack/StackInBracketMatching.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/ApplicationOfStack/StackInBracketMatching.c.i
-.PHONY : ApplicationOfStack/StackInBracketMatching.c.i
+ApplicationOfStack/BracketMatching.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BracketMatching.dir\build.make CMakeFiles/BracketMatching.dir/ApplicationOfStack/BracketMatching.c.i
+.PHONY : ApplicationOfStack/BracketMatching.c.i
 
-ApplicationOfStack/StackInBracketMatching.s: ApplicationOfStack/StackInBracketMatching.c.s
-.PHONY : ApplicationOfStack/StackInBracketMatching.s
+ApplicationOfStack/BracketMatching.s: ApplicationOfStack/BracketMatching.c.s
+.PHONY : ApplicationOfStack/BracketMatching.s
 
 # target to generate assembly for a file
-ApplicationOfStack/StackInBracketMatching.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/ApplicationOfStack/StackInBracketMatching.c.s
-.PHONY : ApplicationOfStack/StackInBracketMatching.c.s
+ApplicationOfStack/BracketMatching.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BracketMatching.dir\build.make CMakeFiles/BracketMatching.dir/ApplicationOfStack/BracketMatching.c.s
+.PHONY : ApplicationOfStack/BracketMatching.c.s
+
+ApplicationOfStack/ExpressionEvaluation.obj: ApplicationOfStack/ExpressionEvaluation.c.obj
+.PHONY : ApplicationOfStack/ExpressionEvaluation.obj
+
+# target to build an object file
+ApplicationOfStack/ExpressionEvaluation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/ApplicationOfStack/ExpressionEvaluation.c.obj
+.PHONY : ApplicationOfStack/ExpressionEvaluation.c.obj
+
+ApplicationOfStack/ExpressionEvaluation.i: ApplicationOfStack/ExpressionEvaluation.c.i
+.PHONY : ApplicationOfStack/ExpressionEvaluation.i
+
+# target to preprocess a source file
+ApplicationOfStack/ExpressionEvaluation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/ApplicationOfStack/ExpressionEvaluation.c.i
+.PHONY : ApplicationOfStack/ExpressionEvaluation.c.i
+
+ApplicationOfStack/ExpressionEvaluation.s: ApplicationOfStack/ExpressionEvaluation.c.s
+.PHONY : ApplicationOfStack/ExpressionEvaluation.s
+
+# target to generate assembly for a file
+ApplicationOfStack/ExpressionEvaluation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/ApplicationOfStack/ExpressionEvaluation.c.s
+.PHONY : ApplicationOfStack/ExpressionEvaluation.c.s
 
 List/CircularDoublyLinkedListWithHeadNode.obj: List/CircularDoublyLinkedListWithHeadNode.c.obj
 .PHONY : List/CircularDoublyLinkedListWithHeadNode.obj
@@ -789,6 +826,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BracketMatching
 	@echo ... CircularDoublyLinkedListWithHeadNode
 	@echo ... CircularDoublyLinkedListWithoutHeadNode
 	@echo ... CircularSinglyLinkedListWithHeadNode
@@ -796,6 +834,7 @@ help:
 	@echo ... DoubleEndedQueue
 	@echo ... DoublyLinkedListWithHeadNode
 	@echo ... DoublyLinkedListWithoutHeadNode
+	@echo ... ExpressionEvaluation
 	@echo ... LinkQueueWithHeader
 	@echo ... LinkQueueWithoutHeader
 	@echo ... LinkStackWithHeader
@@ -806,10 +845,12 @@ help:
 	@echo ... SinglyLinkedListWithoutHeadNode
 	@echo ... SqQueue
 	@echo ... SqStack
-	@echo ... StackInBracketMatching
-	@echo ... ApplicationOfStack/StackInBracketMatching.obj
-	@echo ... ApplicationOfStack/StackInBracketMatching.i
-	@echo ... ApplicationOfStack/StackInBracketMatching.s
+	@echo ... ApplicationOfStack/BracketMatching.obj
+	@echo ... ApplicationOfStack/BracketMatching.i
+	@echo ... ApplicationOfStack/BracketMatching.s
+	@echo ... ApplicationOfStack/ExpressionEvaluation.obj
+	@echo ... ApplicationOfStack/ExpressionEvaluation.i
+	@echo ... ApplicationOfStack/ExpressionEvaluation.s
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.obj
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.i
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.s

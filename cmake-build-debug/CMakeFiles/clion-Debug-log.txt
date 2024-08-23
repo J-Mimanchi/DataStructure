@@ -1,4 +1,4 @@
 D:\DevelopmentTools\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S D:\Code\DataStructure -B D:\Code\DataStructure\cmake-build-debug
--- Configuring done (0.5s)
+-- Configuring done (0.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: D:/Code/DataStructure/cmake-build-debug

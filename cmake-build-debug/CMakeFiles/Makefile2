@@ -79,7 +79,8 @@ all: CMakeFiles/SqQueue.dir/all
 all: CMakeFiles/LinkQueueWithoutHeader.dir/all
 all: CMakeFiles/LinkQueueWithHeader.dir/all
 all: CMakeFiles/DoubleEndedQueue.dir/all
-all: CMakeFiles/StackInBracketMatching.dir/all
+all: CMakeFiles/BracketMatching.dir/all
+all: CMakeFiles/ExpressionEvaluation.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -104,7 +105,8 @@ clean: CMakeFiles/SqQueue.dir/clean
 clean: CMakeFiles/LinkQueueWithoutHeader.dir/clean
 clean: CMakeFiles/LinkQueueWithHeader.dir/clean
 clean: CMakeFiles/DoubleEndedQueue.dir/clean
-clean: CMakeFiles/StackInBracketMatching.dir/clean
+clean: CMakeFiles/BracketMatching.dir/clean
+clean: CMakeFiles/ExpressionEvaluation.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,7 +116,7 @@ clean: CMakeFiles/StackInBracketMatching.dir/clean
 CMakeFiles/SequenceList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceList.dir\build.make CMakeFiles/SequenceList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceList.dir\build.make CMakeFiles/SequenceList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target SequenceList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target SequenceList"
 .PHONY : CMakeFiles/SequenceList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +142,7 @@ CMakeFiles/SequenceList.dir/clean:
 CMakeFiles/SinglyLinkedListWithHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SinglyLinkedListWithHeadNode.dir\build.make CMakeFiles/SinglyLinkedListWithHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SinglyLinkedListWithHeadNode.dir\build.make CMakeFiles/SinglyLinkedListWithHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target SinglyLinkedListWithHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target SinglyLinkedListWithHeadNode"
 .PHONY : CMakeFiles/SinglyLinkedListWithHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +168,7 @@ CMakeFiles/SinglyLinkedListWithHeadNode.dir/clean:
 CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SinglyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target SinglyLinkedListWithoutHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target SinglyLinkedListWithoutHeadNode"
 .PHONY : CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,7 +194,7 @@ CMakeFiles/SinglyLinkedListWithoutHeadNode.dir/clean:
 CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target DoublyLinkedListWithoutHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target DoublyLinkedListWithoutHeadNode"
 .PHONY : CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,7 +220,7 @@ CMakeFiles/DoublyLinkedListWithoutHeadNode.dir/clean:
 CMakeFiles/DoublyLinkedListWithHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListWithHeadNode.dir\build.make CMakeFiles/DoublyLinkedListWithHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListWithHeadNode.dir\build.make CMakeFiles/DoublyLinkedListWithHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target DoublyLinkedListWithHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target DoublyLinkedListWithHeadNode"
 .PHONY : CMakeFiles/DoublyLinkedListWithHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +246,7 @@ CMakeFiles/DoublyLinkedListWithHeadNode.dir/clean:
 CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir\build.make CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularSinglyLinkedListWithHeadNode.dir\build.make CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target CircularSinglyLinkedListWithHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target CircularSinglyLinkedListWithHeadNode"
 .PHONY : CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -270,7 +272,7 @@ CMakeFiles/CircularSinglyLinkedListWithHeadNode.dir/clean:
 CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularSinglyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target CircularSinglyLinkedListWithoutHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target CircularSinglyLinkedListWithoutHeadNode"
 .PHONY : CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -296,7 +298,7 @@ CMakeFiles/CircularSinglyLinkedListWithoutHeadNode.dir/clean:
 CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir\build.make CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularDoublyLinkedListWithHeadNode.dir\build.make CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target CircularDoublyLinkedListWithHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target CircularDoublyLinkedListWithHeadNode"
 .PHONY : CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -322,7 +324,7 @@ CMakeFiles/CircularDoublyLinkedListWithHeadNode.dir/clean:
 CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularDoublyLinkedListWithoutHeadNode.dir\build.make CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target CircularDoublyLinkedListWithoutHeadNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target CircularDoublyLinkedListWithoutHeadNode"
 .PHONY : CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -348,7 +350,7 @@ CMakeFiles/CircularDoublyLinkedListWithoutHeadNode.dir/clean:
 CMakeFiles/SqStack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqStack.dir\build.make CMakeFiles/SqStack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqStack.dir\build.make CMakeFiles/SqStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target SqStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target SqStack"
 .PHONY : CMakeFiles/SqStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -374,7 +376,7 @@ CMakeFiles/SqStack.dir/clean:
 CMakeFiles/SharedStack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedStack.dir\build.make CMakeFiles/SharedStack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedStack.dir\build.make CMakeFiles/SharedStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target SharedStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target SharedStack"
 .PHONY : CMakeFiles/SharedStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,7 +402,7 @@ CMakeFiles/SharedStack.dir/clean:
 CMakeFiles/LinkStackWithoutHeader.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeader.dir\build.make CMakeFiles/LinkStackWithoutHeader.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeader.dir\build.make CMakeFiles/LinkStackWithoutHeader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target LinkStackWithoutHeader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target LinkStackWithoutHeader"
 .PHONY : CMakeFiles/LinkStackWithoutHeader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -426,7 +428,7 @@ CMakeFiles/LinkStackWithoutHeader.dir/clean:
 CMakeFiles/LinkStackWithHeader.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeader.dir\build.make CMakeFiles/LinkStackWithHeader.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeader.dir\build.make CMakeFiles/LinkStackWithHeader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target LinkStackWithHeader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target LinkStackWithHeader"
 .PHONY : CMakeFiles/LinkStackWithHeader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -452,7 +454,7 @@ CMakeFiles/LinkStackWithHeader.dir/clean:
 CMakeFiles/SqQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqQueue.dir\build.make CMakeFiles/SqQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqQueue.dir\build.make CMakeFiles/SqQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target SqQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target SqQueue"
 .PHONY : CMakeFiles/SqQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -478,7 +480,7 @@ CMakeFiles/SqQueue.dir/clean:
 CMakeFiles/LinkQueueWithoutHeader.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeader.dir\build.make CMakeFiles/LinkQueueWithoutHeader.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeader.dir\build.make CMakeFiles/LinkQueueWithoutHeader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target LinkQueueWithoutHeader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target LinkQueueWithoutHeader"
 .PHONY : CMakeFiles/LinkQueueWithoutHeader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -504,7 +506,7 @@ CMakeFiles/LinkQueueWithoutHeader.dir/clean:
 CMakeFiles/LinkQueueWithHeader.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeader.dir\build.make CMakeFiles/LinkQueueWithHeader.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeader.dir\build.make CMakeFiles/LinkQueueWithHeader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target LinkQueueWithHeader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target LinkQueueWithHeader"
 .PHONY : CMakeFiles/LinkQueueWithHeader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -530,7 +532,7 @@ CMakeFiles/LinkQueueWithHeader.dir/clean:
 CMakeFiles/DoubleEndedQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleEndedQueue.dir\build.make CMakeFiles/DoubleEndedQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleEndedQueue.dir\build.make CMakeFiles/DoubleEndedQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target DoubleEndedQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target DoubleEndedQueue"
 .PHONY : CMakeFiles/DoubleEndedQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -550,30 +552,56 @@ CMakeFiles/DoubleEndedQueue.dir/clean:
 .PHONY : CMakeFiles/DoubleEndedQueue.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/StackInBracketMatching.dir
+# Target rules for target CMakeFiles/BracketMatching.dir
 
 # All Build rule for target.
-CMakeFiles/StackInBracketMatching.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target StackInBracketMatching"
-.PHONY : CMakeFiles/StackInBracketMatching.dir/all
+CMakeFiles/BracketMatching.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BracketMatching.dir\build.make CMakeFiles/BracketMatching.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BracketMatching.dir\build.make CMakeFiles/BracketMatching.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BracketMatching"
+.PHONY : CMakeFiles/BracketMatching.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/StackInBracketMatching.dir/rule: cmake_check_build_system
+CMakeFiles/BracketMatching.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StackInBracketMatching.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BracketMatching.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/StackInBracketMatching.dir/rule
+.PHONY : CMakeFiles/BracketMatching.dir/rule
 
 # Convenience name for target.
-StackInBracketMatching: CMakeFiles/StackInBracketMatching.dir/rule
-.PHONY : StackInBracketMatching
+BracketMatching: CMakeFiles/BracketMatching.dir/rule
+.PHONY : BracketMatching
 
 # clean rule for target.
-CMakeFiles/StackInBracketMatching.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackInBracketMatching.dir\build.make CMakeFiles/StackInBracketMatching.dir/clean
-.PHONY : CMakeFiles/StackInBracketMatching.dir/clean
+CMakeFiles/BracketMatching.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BracketMatching.dir\build.make CMakeFiles/BracketMatching.dir/clean
+.PHONY : CMakeFiles/BracketMatching.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ExpressionEvaluation.dir
+
+# All Build rule for target.
+CMakeFiles/ExpressionEvaluation.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\DataStructure\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target ExpressionEvaluation"
+.PHONY : CMakeFiles/ExpressionEvaluation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ExpressionEvaluation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ExpressionEvaluation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\DataStructure\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ExpressionEvaluation.dir/rule
+
+# Convenience name for target.
+ExpressionEvaluation: CMakeFiles/ExpressionEvaluation.dir/rule
+.PHONY : ExpressionEvaluation
+
+# clean rule for target.
+CMakeFiles/ExpressionEvaluation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/clean
+.PHONY : CMakeFiles/ExpressionEvaluation.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
