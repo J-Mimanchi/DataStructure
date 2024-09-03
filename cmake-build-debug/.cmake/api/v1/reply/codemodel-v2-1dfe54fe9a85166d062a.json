@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BracketMatching::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BracketMatching-Debug-e2385a47dda07ac016ef.json",
+					"name" : "BracketMatching",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CircularDoublyLinkedListWithHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CircularDoublyLinkedListWithHeadNode-Debug-9bad3530141762bcc7d2.json",
+					"name" : "CircularDoublyLinkedListWithHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CircularDoublyLinkedListWithoutHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CircularDoublyLinkedListWithoutHeadNode-Debug-50df1405fc832d0f0b29.json",
+					"name" : "CircularDoublyLinkedListWithoutHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CircularSinglyLinkedListWithHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CircularSinglyLinkedListWithHeadNode-Debug-8eec9aa6b67848e218a5.json",
+					"name" : "CircularSinglyLinkedListWithHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CircularSinglyLinkedListWithoutHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CircularSinglyLinkedListWithoutHeadNode-Debug-88ceb512d4234e09fb39.json",
+					"name" : "CircularSinglyLinkedListWithoutHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DoubleEndedQueue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DoubleEndedQueue-Debug-0e0b33fcc90e616aae9a.json",
+					"name" : "DoubleEndedQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DoublyLinkedListWithHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DoublyLinkedListWithHeadNode-Debug-88c9bf59b9dc1ca322d4.json",
+					"name" : "DoublyLinkedListWithHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DoublyLinkedListWithoutHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DoublyLinkedListWithoutHeadNode-Debug-97f3aa748534e334a907.json",
+					"name" : "DoublyLinkedListWithoutHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExpressionEvaluation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExpressionEvaluation-Debug-7102dc7621a2b78a1f0d.json",
+					"name" : "ExpressionEvaluation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KMP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KMP-Debug-ab3e01542de029629f0c.json",
+					"name" : "KMP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkQueueWithHeader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkQueueWithHeader-Debug-5c94fdcaa70f04ecb3f0.json",
+					"name" : "LinkQueueWithHeader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkQueueWithoutHeader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkQueueWithoutHeader-Debug-ac146e9ecf100c8e2e54.json",
+					"name" : "LinkQueueWithoutHeader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkStackWithHeader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkStackWithHeader-Debug-c8f73f3411c71a8ce351.json",
+					"name" : "LinkStackWithHeader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkStackWithoutHeader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkStackWithoutHeader-Debug-35e3011dd3afffe26809.json",
+					"name" : "LinkStackWithoutHeader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SequenceList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SequenceList-Debug-6db39113a85b4a75411b.json",
+					"name" : "SequenceList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SharedStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SharedStack-Debug-5c3b438ed9b16e756942.json",
+					"name" : "SharedStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SinglyLinkedListWithHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SinglyLinkedListWithHeadNode-Debug-658295a29228fd321c1d.json",
+					"name" : "SinglyLinkedListWithHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SinglyLinkedListWithoutHeadNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SinglyLinkedListWithoutHeadNode-Debug-6eca8915f6a45808df50.json",
+					"name" : "SinglyLinkedListWithoutHeadNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqQueue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqQueue-Debug-f36d145ee16514bcbf03.json",
+					"name" : "SqQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqStack-Debug-62cb2d7014a7c42b3434.json",
+					"name" : "SqStack",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Code/DataStructure/cmake-build-debug",
+		"source" : "D:/Code/DataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

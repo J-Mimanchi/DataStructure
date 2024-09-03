@@ -1,0 +1,3 @@
+D:\DevelopmentTools\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\StackInBracketMatching.dir/objects.a
+D:\DevelopmentTools\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\StackInBracketMatching.dir/objects.a @CMakeFiles\StackInBracketMatching.dir\objects1.rsp
+D:\DevelopmentTools\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\StackInBracketMatching.dir/objects.a -Wl,--no-whole-archive -o StackInBracketMatching.exe -Wl,--out-implib,libStackInBracketMatching.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StackInBracketMatching.dir\linkLibs.rsp
