@@ -362,6 +362,19 @@ ExpressionEvaluation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/build
 .PHONY : ExpressionEvaluation/fast
 
+#=============================================================================
+# Target rules for targets named KMP
+
+# Build rule for target.
+KMP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KMP
+.PHONY : KMP
+
+# fast build rule for target.
+KMP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/build
+.PHONY : KMP/fast
+
 ApplicationOfStack/BracketMatching.obj: ApplicationOfStack/BracketMatching.c.obj
 .PHONY : ApplicationOfStack/BracketMatching.obj
 
@@ -409,6 +422,30 @@ ApplicationOfStack/ExpressionEvaluation.s: ApplicationOfStack/ExpressionEvaluati
 ApplicationOfStack/ExpressionEvaluation.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionEvaluation.dir\build.make CMakeFiles/ExpressionEvaluation.dir/ApplicationOfStack/ExpressionEvaluation.c.s
 .PHONY : ApplicationOfStack/ExpressionEvaluation.c.s
+
+KMP/KMP.obj: KMP/KMP.c.obj
+.PHONY : KMP/KMP.obj
+
+# target to build an object file
+KMP/KMP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/KMP/KMP.c.obj
+.PHONY : KMP/KMP.c.obj
+
+KMP/KMP.i: KMP/KMP.c.i
+.PHONY : KMP/KMP.i
+
+# target to preprocess a source file
+KMP/KMP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/KMP/KMP.c.i
+.PHONY : KMP/KMP.c.i
+
+KMP/KMP.s: KMP/KMP.c.s
+.PHONY : KMP/KMP.s
+
+# target to generate assembly for a file
+KMP/KMP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/KMP/KMP.c.s
+.PHONY : KMP/KMP.c.s
 
 List/CircularDoublyLinkedListWithHeadNode.obj: List/CircularDoublyLinkedListWithHeadNode.c.obj
 .PHONY : List/CircularDoublyLinkedListWithHeadNode.obj
@@ -835,6 +872,7 @@ help:
 	@echo ... DoublyLinkedListWithHeadNode
 	@echo ... DoublyLinkedListWithoutHeadNode
 	@echo ... ExpressionEvaluation
+	@echo ... KMP
 	@echo ... LinkQueueWithHeader
 	@echo ... LinkQueueWithoutHeader
 	@echo ... LinkStackWithHeader
@@ -851,6 +889,9 @@ help:
 	@echo ... ApplicationOfStack/ExpressionEvaluation.obj
 	@echo ... ApplicationOfStack/ExpressionEvaluation.i
 	@echo ... ApplicationOfStack/ExpressionEvaluation.s
+	@echo ... KMP/KMP.obj
+	@echo ... KMP/KMP.i
+	@echo ... KMP/KMP.s
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.obj
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.i
 	@echo ... List/CircularDoublyLinkedListWithHeadNode.s
